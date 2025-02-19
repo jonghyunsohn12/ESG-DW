@@ -63,15 +63,6 @@ JOIN Dim_Time d ON f.TimeID = d.TimeID
 JOIN Dim_Industry i ON f.IndustryID = i.IndustryID
 GROUP BY d.Year, i.IndustryName;
 ```
-
-## 🛠 Future Improvements
-- 🌍 **Expand Data Sources**: Incorporate real-time ESG reports and external APIs.
-- 📈 **Enhance Query Performance**: Optimize indexing and caching for faster insights.
-- 🔍 **Advanced ESG Analytics**: Introduce machine learning models for ESG risk prediction.
-
-## 📜 License
-This project is for **academic and research purposes only**. All rights reserved.
-
 ---
 
 This ESG Data Warehouse is designed to **empower investors with sustainability insights** while ensuring **scalability and high-performance data management**. 🚀
