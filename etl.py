@@ -5,7 +5,7 @@ def connect_db():
     return mysql.connector.connect(
         host="localhost",
         user="root",
-        password="yourpassword",
+        password="password",
         database="ESGDataWarehouse"
     )
 
